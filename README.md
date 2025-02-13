@@ -3,6 +3,8 @@
 In this project, we worked with the **Heart Attack Risk Prediction Dataset** available on Kaggle:  
 [Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset).
 
+We trained multiple machine learning models in Python, ensuring proper data preprocessing through cleaning, normalization, and standardization. The models were built using data retrieved from an SQLite database and were evaluated with the goal of achieving a classification accuracy of at least 75%.
+
 
 ## 📂 Project Structure
 ```plaintext
@@ -26,8 +28,11 @@ ROOT/
 ### 2. Database Insertion  
 - Stored the cleaned data in an SQLite database.  
 
+### 3. Model Training
+- Various machine learning models were used to predict heart attack risk as a binary outcome (0 or 1), including Logistic Regression, Random Forest, Multi-Layer Perceptron, and a TensorFlow Keras Neural Network.
 
-
+### 4. Model Optimization
+- Each model was optimized by tuning key hyperparameters, such as regularization for Logistic Regression, tree depth for Random Forest, and learning rate for neural networks. Adjustments were made to improve accuracy, prevent overfitting, and enhance model stability.
 
 ## 📊 Database Documentation
 
@@ -94,16 +99,16 @@ ROOT/
 
 
 
-## 💻 How to Use
-Ensure that you have access to the technologies mentioned above.
+## 💻 How to Use  
+Ensure that you have Python installed along with the necessary dependencies listed in the **Technologies Used** section.  
 
-To get started with this project locally:
+To get started with this project locally:  
 
-1. Clone the repository:
+1. **Clone the repository:**  
    ```bash
-   git clone url.git
+   git clone https://github.com/ThatsMrDew/ProjectFour-GroupOne.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd folder
+   cd ProjectFour-GroupOne
    ```
