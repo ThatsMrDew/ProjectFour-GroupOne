@@ -1,6 +1,6 @@
 # Heart Attack Risk Prediction Project
 
-In this project, we are working with the **Heart Attack Risk Prediction Dataset** available on Kaggle:  
+In this project, we worked with the **Heart Attack Risk Prediction Dataset** available on Kaggle:  
 [Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset).
 
 
