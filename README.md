@@ -8,14 +8,29 @@ We trained multiple machine learning models in Python, ensuring proper data prep
 
 ## 📂 Project Structure
 ```plaintext
+# Project Directory Structure
+
 ROOT/
 ├── etl.ipynb                      # Explores, cleans, and inserts the data into a SQLite database
 ├── heart.db                       # SQLite database containing the processed data
 ├── optimization.csv               # Documents model optimization and evaluation, showing iterative changes and performance results
+
 ├── Builds/
-│   └── models.ipynb               # File where models are trained and tested
+│   ├── models.ipynb               # File where models are trained and tested
+│   ├── LogisticRegression.ipynb   # Notebook for Logistic Regression model development
+│   ├── vizualizations.ipynb       # Notebook for creating data visualizations
+│   └── XGBoostEXEC.py             # Script for training and executing the XGBoost model
+
+├── Images/
+│   ├── feature_correlation_heatmap.png  # Heatmap showing feature correlations
+│   └── Sex_Population.png                # Visualization showing population distribution by sex
+
+├── Presentation/
+│   └── Heart Attack Risk.pdf      # Presentation summarizing project findings and results
+
 └── Resources/
     └── heart_attack_prediction.csv # Raw dataset used for model building
+
 ```
 
 ## 📝 Summary of Operations
